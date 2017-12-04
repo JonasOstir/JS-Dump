@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 // Scope => Lifetime of a variable
 
 // Global scope

@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 console.log(name); // undefined
 var name = 'Jonas';
