@@ -20,15 +20,25 @@ function foo() {
   var name = 'Jonas';
 }
 
+foo();
+
 // ||
 // ||
 // \/
 
-foo(); // undefined (console.log(name): 29); From within the function
+function foo() {
+  var name;
+  console.log(name);
+  name = 'Jonas'
+}
+
+foo() // undefined
 
 // ------------------------------------------------------------------------
 // ------------------------------------------------------------------------
 // ------------------------------------------------------------------------
+
+foo();
 
 function foo() {
   var name;
