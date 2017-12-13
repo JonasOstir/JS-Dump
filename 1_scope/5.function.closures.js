@@ -18,7 +18,7 @@ console.log(foo[5]());    // 10
 // ||
 // \/
 
-var foo = [];
+var foo = []; // No closures
 
 for (var i = 0; i < 10; i++) {
   (function() {
@@ -34,7 +34,7 @@ console.log(foo[5]);
 // ---------------------------------------------
 // ---------------------------------------------
 
-var foo = [];
+var foo = []; // With closures
 
 for (var i = 0; i < 10; i++) {
   (function(y) {
